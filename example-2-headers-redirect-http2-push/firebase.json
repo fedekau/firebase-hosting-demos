@@ -1,0 +1,38 @@
+{
+  "hosting": {
+    "public": "src",
+    "rewrites": [
+      {
+        "source": "/home-rewrite",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/home-redirect",
+        "destination": "/index.html",
+        "type": 301
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=7200"
+          }
+        ]
+      },
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "</assets/scripts/index.js>;rel=preload;as=script,</assets/styles/index.css>;rel=preload;as=style,</assets/images/meetup-tbo.png>;rel=preload;as=image"
+          }
+        ]
+      }
+    ]
+  }
+}
