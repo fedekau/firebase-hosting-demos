@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "src",
+    "rewrites": [
+      {
+        "source": "/token", "function": "token"
+      }
+    ]
+  }
+}
