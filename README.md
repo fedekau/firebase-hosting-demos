@@ -11,7 +11,7 @@ To run any of the examples follow the general instructions:
 - Edit the `<example-name>/.firebaserc` and put your app name.
 - Run `firebase deploy`.
 
-### Example 1: Simple deploy
+### Example 1: Simple deploy and Rollback
 
 - Break something, and run `firebase deploy` again.
 - Check that the site is broken.
