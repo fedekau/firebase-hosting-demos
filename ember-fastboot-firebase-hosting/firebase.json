@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "dist",
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "</assets/vendor-590322a509dc54f3c574d1265c68264a.js>;rel=preload;as=script,</assets/github-fastboot-example-86874d95a8fbea7da81025798af0c085.js>;rel=preload;as=script,</assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css>;rel=preload;as=style,</assets/github-fastboot-example-d41d8cd98f00b204e9800998ecf8427e.css>;rel=preload;as=style"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "ssr"
+      }
+    ]
+  }
+}

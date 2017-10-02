@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "ember-cli-fastboot": "^1.0.0-rc.3",
+    "express": "^4.15.3",
+    "fastboot": "^1.0.0-rc.7",
+    "fastboot-express-middleware": "^1.0.0-rc.8",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "node-fetch": "^1.7.1"
+  },
+  "private": true
+}

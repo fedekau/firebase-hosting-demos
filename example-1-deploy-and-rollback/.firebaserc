@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "example-1-deploy-and-rollback"
+    "default": "ember-meetup"
   }
 }
